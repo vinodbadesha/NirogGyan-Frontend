@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+NirogGyan
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NirogGyan - Doctor Appointment Booking Application.
+A user-friendly web application that allows users to search and book appointments with verified medical specialists. 
+Built with ReactJS, this project demonstrates seamless data fetching, routing and user-centric design.
 
-## Available Scripts
+Though developing backend is optional, I chose to develop the server and database making it a full-stack project. Thus, enhancing my skills.
 
-In the project directory, you can run:
+Tools & Libraries
+1. Backend (Github Repo - https://github.com/vinodbadesha/NirogGyan.git)
+	NodeJS and ExpressJS - For API development
+	SQL - To maintain the data of doctors and their availabilities
+	Deployment - Deployed the backend in Render to make it live and easily connect with the client-side.
+		(Deployed URL - https://niroggyan-es0u.onrender.com/doctors)
 
-### `npm start`
+2. Frontend
+	ReactJS - Core JavaScript library to develop user interface
+	React Router DOM - For routing and navigation between components
+	React Hooks (useState, useEffect) - To maintain state variables that change with time
+	React Loader Spinner - A pre-designed component to handle Asynchronous operations
+	React icons - To enhance the user interface
+	ContextAPI - For global state management
+	CSS - For styling the application
+	React Forms with form validation, React modals
+	Deployment - Deployed the client-side using Vercel
+		(Live URL - https://nirog-gyan-frontend-alpha.vercel.app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Improvements
+1. Responsive layout - I would update the layout to responsive making it compatible and available in different screen sizes namely mobile phones, tablets and computers.
+2. Authentication - I would add a login and signup feature to track the previous appointments.
+3. Virtual medical reports - I would try to achieve the possibility of storing medical reports virtually in the account itself. It would be lot more easier for the doctor to check the previous reports within a moment and patients need not have to carry physical copies.
+	
