@@ -11,7 +11,7 @@ const Header = () => {
                 <li>Home</li>
                 <li>Consult Us</li>
                 <li>Book Lab Test</li>
-                <li>About Us</li>
+                <li>About</li>
                 <li>Help</li>
             </ul>
             <button className="signup-button">Login/Signup</button>
