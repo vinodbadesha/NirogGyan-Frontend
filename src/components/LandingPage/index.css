@@ -1,0 +1,69 @@
+.landing-page{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+.landing-page-matter{
+    font-size: 20px;
+    font-weight: 500;
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.quality-text{
+    font-size: 25px;
+}
+.search-container{
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+.search-icon-container{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+}
+.search-icon{
+    font-size: 20px;
+}
+.doctors-list{
+    width: 50%;
+}
+.search-box{
+    height: 48px;
+    width: 100%;
+    border: none;
+    border-left: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+.no-search-results-view{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.no-results-found-image{
+    height: 30%;
+    width: 30%;
+    margin-bottom: 20px;
+}
+.no-search-results-view p{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
